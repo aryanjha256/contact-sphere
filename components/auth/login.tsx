@@ -10,7 +10,7 @@ import {
   Input,
 } from "@nextui-org/react";
 
-import { loginUser, registerUser } from "@/utils/auth";
+import { loginUser } from "@/utils/auth";
 import { useState } from "react";
 
 const LoginModal = () => {

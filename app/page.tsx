@@ -1,5 +1,6 @@
 import LoginModal from "@/components/auth/login";
 import RegisterModal from "@/components/auth/register";
+import CreateContact from "@/components/createmodal";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <h1>List Group</h1>
       <LoginModal />
       <RegisterModal />
+      <CreateContact />
     </div>
   );
 }
